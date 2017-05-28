@@ -1,6 +1,6 @@
 module.exports = {
     //entry point for the application
-    entry: ['./app/index.js'],
+    entry: ['babel-polyfill', './app/index.js'],
 
     //For output we are going to target bundle.js file which index.html is refering to
     //So when webpack converts index.js then it is going to move all the code from index.js to bundle.js
